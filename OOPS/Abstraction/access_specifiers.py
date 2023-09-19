@@ -7,9 +7,9 @@ class Student:
      def display(self):
           print(f"Hi My Name Is {self.name}")
           
-s1=Student("Rahul")
-s1.display()
+# s1=Student("Rahul",1,1)
+# s1.display()
 
-dir(s1) # name mangling to access private atrributes or methods
+# print(dir(s1)) # name mangling to access private atrributes or methods
 
 
