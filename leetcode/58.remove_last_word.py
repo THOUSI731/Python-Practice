@@ -6,4 +6,4 @@ class Solution:
         
 
 a=Solution()
-a.lengthOfLastWord('    ldjfdks    kjfslk  tr')
+a.lengthOfLastWord()
