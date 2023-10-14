@@ -12,8 +12,7 @@ class Solution:
                     result += list_2[i]
                     break
                result += list_2[i]
-               for j in range(spaces):
-                    result += ' '
+               result += ' '*spaces
                
                
           return result
