@@ -1,4 +1,4 @@
-variable="malayaam"
+variable="malaylaam"
 result=""
 for i in variable:
      result = i +result
