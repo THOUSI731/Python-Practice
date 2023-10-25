@@ -1,11 +1,10 @@
+import string
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        loop=list(s.lower())
-        for i in range(-1,-len(s),-1):
-             print(loop[i],end='')
-             
+        result=''.join([s for s in s if s.isalpha() or s.isalnum()][::-1]).lower()
+        return True if  result == result[::-1]  else False
                
              
    
 a=Solution()
-a.isPalindrome("A man, a plan, a canal:Panama")
+print(a.isPalindrome("0P"))
